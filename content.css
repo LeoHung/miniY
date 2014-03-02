@@ -1,0 +1,52 @@
+#page {
+  visibility: hidden;
+}
+.tabs li.on a , .tabs li.on strong, .tabs li.on a, .tabs li strong, .tabs li a {
+	background: url("#") !important;
+}
+.tabs, .bd {
+	font-size: 20px !important;
+}
+#news:before{
+	content :'YAHOO!';
+	font-size: 72px !important;
+	font-family: serif;
+	text-align: center !important; 
+	padding-bottom: 20px;
+	color: #6f5499;
+	text-align: center;;
+}
+#news {
+  position: absolute;
+  margin: auto;
+  width: 600px;
+  top: 20px;
+  visibility: visible !important;
+}
+.bd {
+	border-style: none !important;
+	height: 180px !important;
+}
+.btnmore {
+	display: none !important;
+}
+.newsad {
+	display: none;
+}
+#menu {
+	padding-top: 20px;
+	opacity: .4;
+}
+#menu:hover {
+	opacity: 1;
+}
+#menu ul li{
+	display: inline;
+}
+#tools {
+	padding-top: 10px;
+	text-align:  center;
+}
+body {
+	background-color: #eee;
+}

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Minimal Y!",
+
+  "author" :{"name":"Leo Hung", "page": "http://leohung.net/" },
+
+  "description": "Minimal style Yahoo! Taiwan page",
+  "version": "1.0.0",
+
+  "page_action": {
+  },
+  "permissions": [
+    "tabs","http://tw.yahoo.com/", "https://tw.yahoo.com/"
+  ],
+  "content_scripts": [{
+    "matches":["http://tw.yahoo.com/"],
+    "css": ["css/content.css","css/bootstrap.min.css"],
+    "js":["jquery-2.1.0.min.js", "content_script.js", "bootstrap.min.js"]
+  }]
+}
